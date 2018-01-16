@@ -1,4 +1,4 @@
-class ModifyLandmarks < ActiveRecord::Migration[5.1]
+class ModifyLandmarks < ActiveRecord::Migration[5.0]
   def change
     add_column :landmarks, :figure_id, :integer
   end
