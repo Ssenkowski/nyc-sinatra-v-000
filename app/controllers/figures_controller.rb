@@ -1,4 +1,4 @@
-class FiguresController < ApplicationController
+class FiguresController < ApplicationController[5.0]
 
     get '/figures' do
       @figures = Figure.all
